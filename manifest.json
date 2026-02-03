@@ -1,0 +1,10 @@
+s{
+  "domain": "intelbras_solar",
+  "name": "Intelbras SolarPlus",
+  "codeowners": ["@joaofidelix"],
+  "config_flow": true,
+  "documentation": "https://github.com/joaofidelix/intelbras_solar",
+  "iot_class": "cloud_polling",
+  "version": "1.0.0",
+  "requirements": ["aiohttp"]
+}

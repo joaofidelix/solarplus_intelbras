@@ -1,0 +1,38 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configuração Intelbras SolarPlus",
+        "description": "Insira os tokens obtidos através da inspeção de rede (CURL) do portal SolarPlus Intelbras.",
+        "data": {
+          "bearer_token": "Bearer Token",
+          "refresh_token": "Refresh Token"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Falha ao conectar com o servidor da Intelbras",
+      "invalid_auth": "Tokens inválidos ou expirados",
+      "unknown": "Erro inesperado"
+    },
+    "abort": {
+      "already_configured": "Esta conta Intelbras já está configurada."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "plant_power": {
+        "name": "Potência Atual"
+      },
+      "energy_today": {
+        "name": "Energia Gerada Hoje"
+      },
+      "microinverter_status": {
+        "name": "Status do Microinversor"
+      },
+      "microinverter_rssi": {
+        "name": "Sinal WiFi (RSSI)"
+      }
+    }
+  }
+}
